@@ -17,7 +17,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "omnipay/buckaroo": "~2.0"
+        "omnipay/buckaroo": "dev-master"
     }
 }
 ```
@@ -31,6 +31,7 @@ And run composer to update your dependencies:
 
 The following gateways are provided by this package:
 
+* Buckaroo_Buckaroo (general use)
 * Buckaroo_CreditCard
 * Buckaroo_Ideal
 * Buckaroo_PayPal
